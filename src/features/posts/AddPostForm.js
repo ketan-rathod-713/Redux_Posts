@@ -40,8 +40,8 @@ const AddPostForm = () => {
     ))
 
     return (
-        <section>
-            <h2>Add a New Post</h2>
+        <section style={{"border":"2px solid gray","padding":"20px"}}>
+            <h2 style={{"padding":"20px 0px"}}>Add a New Post</h2>
             <form>
                 <label htmlFor="postTitle">Post Title:</label>
                 <input
